@@ -1,0 +1,9 @@
+! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:zapnaa/abcappp.git'
+
+advise：
+git fetch
+git merge
+
+maybe：
+git push -f
