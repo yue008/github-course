@@ -1,0 +1,16 @@
+mkdir XX(文件名)
+cd XX（文件名）
+pwd
+git init
+
+
+git add XX (文件名，注意加分号) #文件添加到仓库
+git commit -m XX（文件名） #把文件提交到仓库
+git remote add origin https://github.com/XX(github的账户名)/XX(项目名).git
+git push -u origin master #会提示你输入github的账号和密码
+
+#当你再次上传你的代码或文件时，需要再次输出下面的命令
+git add XX (文件名，注意加分号)#文件添加到仓库
+git commit -m XX（文件名）#把文件提交到仓库
+git remote add origin https://github.com/XX(github的账户名)/XX(项目名).git
+git push -u origin master #会提示你输入github的账号和密码
